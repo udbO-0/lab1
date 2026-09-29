@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="lab1/lab1.csproj" />
+  <Folder Name="/Элементы решения/" />
+  <Project Path="lab1/lab.csproj" />
+  <Project Path="lab2/lab2.csproj" Id="8892162b-c047-40ab-8400-abad983b688a" />
+  <Project Path="lab3/lab3.csproj" Id="60312d70-5dc2-4774-9df6-c1fcd30eb9b6" />
 </Solution>

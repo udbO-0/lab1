@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function f(){
+            let collection = document.childNodes;
+            let el = document.getElementById("write");
+            let str = "count " + collection.length;
+            for(let i=0; i<collection.length; i++){
+                str+="<p>" + collection[i];
+            }
+            el.innerHTML += str;
+        }
+            window.onload = () => {
+                let el1 = document.createElement("h1");
+                let el2 = document.createTextNode("Text");
+                el1.appendChild(el2);
+                document.body.appendChild(el1);
+            }
+    </script>
+</head>
+<body>
+    <input type="button" value="Click" onclick="f()">
+    <div id="write">
+    </div>
+
+</body>
+</html>
